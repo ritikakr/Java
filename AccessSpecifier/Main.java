@@ -1,16 +1,23 @@
-package com.access;
+package com.eligibility;
+import java.util.Scanner;
 
-public class Main 
-{
+public class Main {
 
 	public static void main(String[] args) 
 	{
-		Circle c = new Circle();
-		c.area_circle(4);
+		// TODO Auto-generated method stub
+		Person p = new Person();
 		
-		Rectangle r = new Rectangle();
-		r.area_rect(2.50, 4.50);
-					
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter Students age:");
+		int age=sc.nextInt();
+		
+		p.getValue();
+		p.setValue(age);
+		
+		
+
 	}
 
 }
